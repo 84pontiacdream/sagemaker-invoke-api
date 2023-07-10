@@ -10,9 +10,10 @@ This repo contains a Lambda function and a notebook which is to be run in Sagema
 
 1. Open the SageMaker console and select 'Create a domain'.
 
-2. Choose a domain name, and User profile.
+2. Choose a domain name, and User profile name.
 
 3. Choose or create a execution role. The execution role must have access to S3 or the S3 bucket that you have just created.
+![images\sagemaker_execution_role.png](images/sagemaker_execution_role.png)
 
 4. Open the Sagemaker studio, upload the notebook and run it.
 
