@@ -2,7 +2,9 @@
 
 <img src="images\SageMaker_Icon_Large-1.jpg" width="155" height="85"/> <img src="images\Amazon_Lambda_architecture_logo.svg.png" width="105" height="85"/> <img src="images\aws-api-gateway-logo-368082D845-seeklogo.com.png" width="105" height="85"/>  <img src="images\2560px-Scikit_learn_logo_small.svg.png" width="125" height="85"/><img src="images\postman_logo.png" width="105" height="85"/>
 
-This repo contains a Lambda function and a notebook which is to be run in SageMaker Studio to build a machine learning model to predict house prices using using the [California Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) dataset, present in Scikit-Learn. A Sagemaker Endpoint is deployed for the model. Next, a Lambda function and Rest API in API Gateway are created and the API is deployed. The API is then tested in Postman and with Python code written in the notebook.
+This repo contains a Lambda function and a notebook which is to be run in SageMaker Studio to build a machine learning model to predict house prices using using the [California Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) dataset, present in Scikit-Learn. A Sagemaker Endpoint is deployed for the model. 
+
+Next, a Lambda function and Rest API in API Gateway are created and the API is deployed. The API is then tested in Postman and with Python code written in the notebook.
 
 Detailed here:
 
